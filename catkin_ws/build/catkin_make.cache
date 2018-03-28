@@ -1,0 +1,2 @@
+first_pkg:keyboard_control_gpio:turtlebot3_msgs
+-DCATKIN_DEVEL_PREFIX=/home/ros/practice/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ros/practice/catkin_ws/install -G Unix Makefiles
