@@ -62,18 +62,29 @@ def talker():
     rate = rospy.Rate(100) # 10hz
     word = '' 
     while not rospy.is_shutdown():
-        key = getKey()
-        
-        if key == 'w' :
+        key = getKey()        
+        if key == 'q' :
+            word = key
+            print word
+        elif key == 'a' :
+            word = key
+            print word   
+        elif key == 'w' :
             word = key
             print word
         elif key == 's' :
             word = key
-            print word   
-        elif key == 'a' :
+            print word
+        elif key == 'e' :
             word = key
             print word
         elif key == 'd' :
+            word = key
+            print word
+        elif key == 'r' :
+            word = key
+            print word
+        elif key == 'f' :
             word = key
             print word
         elif key == ' ' or key == 'c' :      
@@ -82,10 +93,10 @@ def talker():
         else:
             if (key == '\x03'):
                 break
-        keyboard.data = word
+        keyboard.data = key
         print(keyboard.data)
         #rospy.loginfo(hello_str)
-        pub.publish(keyboard.data)   ## why must be .data?
+        pub.publish(keyboard.data)
         rate.sleep()
 
 if __name__ == '__main__':
