@@ -39,6 +39,7 @@ struct AddTwoIntsResponse_
 
 
 
+
   typedef boost::shared_ptr< ::first_pkg::AddTwoIntsResponse_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::first_pkg::AddTwoIntsResponse_<ContainerAllocator> const> ConstPtr;
 

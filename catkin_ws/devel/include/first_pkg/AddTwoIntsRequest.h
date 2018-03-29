@@ -44,6 +44,7 @@ struct AddTwoIntsRequest_
 
 
 
+
   typedef boost::shared_ptr< ::first_pkg::AddTwoIntsRequest_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::first_pkg::AddTwoIntsRequest_<ContainerAllocator> const> ConstPtr;
 

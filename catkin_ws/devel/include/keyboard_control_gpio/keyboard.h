@@ -39,6 +39,7 @@ struct keyboard_
 
 
 
+
   typedef boost::shared_ptr< ::keyboard_control_gpio::keyboard_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::keyboard_control_gpio::keyboard_<ContainerAllocator> const> ConstPtr;
 

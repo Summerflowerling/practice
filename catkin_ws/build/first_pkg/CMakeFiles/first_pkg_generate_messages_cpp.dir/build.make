@@ -61,14 +61,14 @@ first_pkg/CMakeFiles/first_pkg_generate_messages_cpp: /home/ros/practice/catkin_
 /home/ros/practice/catkin_ws/devel/include/first_pkg/Num.h: /home/ros/practice/catkin_ws/src/first_pkg/msg/Num.msg
 /home/ros/practice/catkin_ws/devel/include/first_pkg/Num.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/practice/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from first_pkg/Num.msg"
-	cd /home/ros/practice/catkin_ws/build/first_pkg && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/practice/catkin_ws/src/first_pkg/msg/Num.msg -Ifirst_pkg:/home/ros/practice/catkin_ws/src/first_pkg/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p first_pkg -o /home/ros/practice/catkin_ws/devel/include/first_pkg -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/practice/catkin_ws/src/first_pkg && /home/ros/practice/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/practice/catkin_ws/src/first_pkg/msg/Num.msg -Ifirst_pkg:/home/ros/practice/catkin_ws/src/first_pkg/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p first_pkg -o /home/ros/practice/catkin_ws/devel/include/first_pkg -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 /home/ros/practice/catkin_ws/devel/include/first_pkg/AddTwoInts.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
 /home/ros/practice/catkin_ws/devel/include/first_pkg/AddTwoInts.h: /home/ros/practice/catkin_ws/src/first_pkg/srv/AddTwoInts.srv
 /home/ros/practice/catkin_ws/devel/include/first_pkg/AddTwoInts.h: /opt/ros/kinetic/share/gencpp/msg.h.template
 /home/ros/practice/catkin_ws/devel/include/first_pkg/AddTwoInts.h: /opt/ros/kinetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/practice/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from first_pkg/AddTwoInts.srv"
-	cd /home/ros/practice/catkin_ws/build/first_pkg && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/practice/catkin_ws/src/first_pkg/srv/AddTwoInts.srv -Ifirst_pkg:/home/ros/practice/catkin_ws/src/first_pkg/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p first_pkg -o /home/ros/practice/catkin_ws/devel/include/first_pkg -e /opt/ros/kinetic/share/gencpp/cmake/..
+	cd /home/ros/practice/catkin_ws/src/first_pkg && /home/ros/practice/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ros/practice/catkin_ws/src/first_pkg/srv/AddTwoInts.srv -Ifirst_pkg:/home/ros/practice/catkin_ws/src/first_pkg/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p first_pkg -o /home/ros/practice/catkin_ws/devel/include/first_pkg -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 first_pkg_generate_messages_cpp: first_pkg/CMakeFiles/first_pkg_generate_messages_cpp
 first_pkg_generate_messages_cpp: /home/ros/practice/catkin_ws/devel/include/first_pkg/Num.h

@@ -59,6 +59,7 @@ struct Num_
 
 
 
+
   typedef boost::shared_ptr< ::first_pkg::Num_<ContainerAllocator> > Ptr;
   typedef boost::shared_ptr< ::first_pkg::Num_<ContainerAllocator> const> ConstPtr;
 

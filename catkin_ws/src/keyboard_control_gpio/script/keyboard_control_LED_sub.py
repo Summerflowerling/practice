@@ -17,35 +17,32 @@ from keyboard_control_gpio.msg import keyboard
 #########################
 
 def callback(data):
-    rospy.loginfo(data)
-    if data == 'w' :
+    rospy.loginfo(data.word)
+    if data.word == 'w' :
         gpio.output(4,gpio.HIGH)
         gpio.output(18,gpio.LOW)
         gpio.output(22,gpio.LOW)
         gpio.output(24,gpio.LOW)
-    elif data == 's' :
+    elif data.word == 's' :
         gpio.output(4,gpio.LOW)
         gpio.output(18,gpio.HIGH)
         gpio.output(22,gpio.LOW)
         gpio.output(24,gpio.LOW)
-    elif data == 'a' :
+    elif data.word == 'a' :
         gpio.output(4,gpio.LOW)
         gpio.output(18,gpio.LOW)
         gpio.output(22,gpio.HIGH)
         gpio.output(24,gpio.LOW)
-    elif data == 'd' :
+    elif data.word == 'd' :
         gpio.output(4,gpio.LOW)
         gpio.output(18,gpio.LOW)
         gpio.output(22,gpio.LOW)
         gpio.output(24,gpio.HIGH)
-    elif data == ' ' or key == 'c' :      
+    elif data.word == ' ' or data.word == 'c' :      
         gpio.output(4,gpio.LOW)
         gpio.output(18,gpio.LOW)
         gpio.output(22,gpio.LOW)
         gpio.output(24,gpio.LOW)
-    else:
-            if (key == '\x03'):
-                break   
     #rate = rospy.Rate(10) # 10hz
     #rate.sleep()
     
